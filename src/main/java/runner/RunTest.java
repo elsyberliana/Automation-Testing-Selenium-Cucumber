@@ -8,7 +8,7 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
         features = "src\\test\\resources\\features",
         glue = "stepDef",
-        tags = "@RemoveProduct",
+        tags = "@RegressionLogin",
         plugin = {"pretty", "html:target/RegressionReport.html"}
 )
 public class RunTest {
